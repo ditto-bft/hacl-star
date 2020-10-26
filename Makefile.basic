@@ -53,4 +53,4 @@ AR ?= ar
 include $(patsubst %.c,%.d,$(SOURCES))
 
 clean:
-	rm -rf *.so *.o *.d *.d.* $(USER_TARGET)
+	rm -rf *.so *.o *.d *.d.* Makefile.config config.h $(USER_TARGET)
