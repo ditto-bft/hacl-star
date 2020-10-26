@@ -1,0 +1,6 @@
+/*.d
+/*.a
+/*.o
+/*.so
+/Makefile.config
+/config.h
